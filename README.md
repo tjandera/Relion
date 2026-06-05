@@ -79,8 +79,10 @@ How it maps to the team's backend scaffold:
 Prerequisites: Bun, or Node 20+ with npm. The repo is set up for Bun.
 
 ```bash
-# 1. Install dependencies
-bun install            # or: npm install
+# 1. Install dependencies (Bun is recommended; this repo is set up for Bun)
+bun install
+# If you do not have Bun, install it from https://bun.sh
+# npm works too but needs the legacy flag:  npm install --legacy-peer-deps
 
 # 2. Set up your env file
 cp .env.example .env
